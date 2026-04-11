@@ -5,6 +5,8 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+*Want to add something? See [CONTRIBUTING.md](CONTRIBUTING.md).*
+
 ---
 
 ## Contents
