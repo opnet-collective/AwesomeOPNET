@@ -41,16 +41,23 @@
 
 ## Ecosystem & Community Projects
 
+> For a live, frequently-updated directory of 26+ OPNET dApps, see **[vibecode.finance/ecosystem](https://vibecode.finance/ecosystem)**.
+
 ### Data & Infrastructure
 
 | Project | URL | Description |
 |---------|-----|-------------|
 | **BlockFeed** | https://blockfeed.online/docs | Public REST/GraphQL/WebSocket data API for OPNET. 35+ endpoints, no API key required. Real-time block, transaction, and event data. |
+| **OPTools** | https://optools.org | On-chain tooling suite for OPNET |
 
-### dApps
+### dApps & Protocols
 
 | Project | URL | Description |
 |---------|-----|-------------|
+| **OPNet Hub** | https://vibecode.finance | All-in-one dashboard: live chain data, OP-20 token launcher, Motoswap DEX UI, epoch miner, quest system, and dApp directory |
+| **OP-Sign** | — | Trustless document notarization on Bitcoin L1 — prove a document existed at a specific block height, attested on-chain |
+| **Eternal Sentinel** | — | Decentralized inheritance / dead man's switch — set heirs and shares, prove you're alive with a ping; tokens distribute automatically on inactivity |
+| **BlockTip** | — | Tip bot for Bitcoin L1 — send any OP-20 token to anyone in one click, or stream block-by-block |
 | **Satoshi's Market** | — | Community NFT marketplace for OP-721 tokens |
 | **OpTrade** | — | Community NFT marketplace |
 | **op-bet** | https://mint.op-bet.xyz/ | On-chain betting/gaming dApp |

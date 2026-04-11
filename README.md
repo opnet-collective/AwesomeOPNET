@@ -60,6 +60,7 @@ Key properties at a glance:
 | GitHub Organization | https://github.com/btc-vision |
 | Block Explorer | https://opscan.org |
 | MotoSwap DEX | https://motoswap.org |
+| OPTools | https://optools.org |
 | AI Dev Assistant (Bob) | https://ai.opnet.org |
 
 ---
@@ -211,12 +212,15 @@ Community-built projects on OPNET:
 
 | Project | URL | Description |
 |---------|-----|-------------|
+| **OPNet Hub** | https://vibecode.finance | All-in-one dashboard — token launcher, DEX UI, epoch miner, 26+ dApp directory |
 | **BlockFeed** | https://blockfeed.online/docs | Public OPNET data API — REST/GraphQL/WebSocket, 35+ endpoints, no API key |
+| **OP-Sign** | — | Trustless document notarization on Bitcoin L1 |
+| **Eternal Sentinel** | — | Decentralized inheritance / dead man's switch for OP-20 tokens |
+| **BlockTip** | — | Send any OP-20 token to anyone in one click on Bitcoin L1 |
 | **Satoshi's Market** | — | NFT marketplace for OP-721 tokens |
-| **OpTrade** | — | NFT marketplace |
 | **op-bet** | https://mint.op-bet.xyz/ | On-chain betting dApp |
 
-→ Full ecosystem listing: [docs/resources.md](docs/resources.md)
+→ Full ecosystem listing with 26+ dApps: [vibecode.finance/ecosystem](https://vibecode.finance/ecosystem) · [docs/resources.md](docs/resources.md)
 
 ---
 
