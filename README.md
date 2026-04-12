@@ -26,6 +26,7 @@
 - [Community & Social](#community--social)
 - [Media & Coverage](#media--coverage)
 - [Deep Dives](#deep-dives)
+- [Troubleshooting](#troubleshooting)
 
 ---
 
@@ -184,13 +185,13 @@ Contracts are written in **AssemblyScript** and compiled to WASM using `@btc-vis
 | Token approval | `approve()` | `increaseAllowance()` |
 | Constructor | Runs once | Runs on **every** interaction |
 | Block time | ~12 s | ~10 min |
-| Event logs | `eth_getLogs` | No native equivalent |
 
 **Official resources:**
 - [btc-vision/btc-runtime](https://github.com/btc-vision/btc-runtime) — runtime library with base classes
 - [btc-vision/unit-test-framework](https://github.com/btc-vision/unit-test-framework) — test runner
 - [btc-vision/example-tokens](https://github.com/btc-vision/example-tokens) — reference OP-20 implementations
 - [docs.opnet.org](https://docs.opnet.org) — official developer documentation
+- [bc1plainview/buidl-opnet-plugin](https://github.com/bc1plainview/buidl-opnet-plugin) — Claude Code plugin (`/buidl "idea"`) that orchestrates multi-agent spec, contract, frontend, security audit, testnet deploy, and E2E testing in one command
 
 → Full contract development guide: [docs/contracts.md](docs/contracts.md)
 
@@ -205,6 +206,7 @@ Contracts are written in **AssemblyScript** and compiled to WASM using `@btc-vis
 | [btc-vision/mempool-opnet](https://github.com/btc-vision/mempool-opnet) | Self-hostable mempool explorer |
 | [btc-vision/native-swap](https://github.com/btc-vision/native-swap) | NativeSwap contract source |
 | [btc-vision/motoswap](https://github.com/btc-vision/motoswap) | Motoswap DEX contract source |
+| [mwaddip/otzi](https://github.com/mwaddip/otzi) | Post-quantum T-of-N multisig vault — distributed ML-DSA + FROST threshold signing for OPNet transactions |
 
 ---
 
@@ -216,10 +218,10 @@ Community-built projects on OPNET:
 |---------|-----|-------------|
 | **OPNet Hub** | https://vibecode.finance | All-in-one dashboard — token launcher, DEX UI, epoch miner, 26+ dApp directory |
 | **BlockFeed** | https://blockfeed.online/docs | Public OPNET data API — REST/GraphQL/WebSocket, 35+ endpoints, no API key |
-| **OP-Sign** | — | Trustless document notarization on Bitcoin L1 |
-| **Eternal Sentinel** | — | Decentralized inheritance / dead man's switch for OP-20 tokens |
-| **BlockTip** | — | Send any OP-20 token to anyone in one click on Bitcoin L1 |
-| **Satoshi's Market** | — | NFT marketplace for OP-721 tokens |
+| **Tenero** | https://tenero.io | Real-time Bitcoin DeFi analytics — token, DEX, and wallet tracking with live BTC market data across Bitcoin ecosystems |
+| **OpGuard** *(experimental)* | https://opguard-production-5676.up.railway.app | OP-20 token security auditor — static analysis and audit tooling for OPNET smart contracts |
+| **OpFlow** *(experimental)* | https://opflow-production.up.railway.app | OPNet token analytics — on-chain data and charts for tokens deployed on Bitcoin L1 |
+| **BlockHost Engine** | [github.com/mwaddip/blockhost-engine-opnet](https://github.com/mwaddip/blockhost-engine-opnet) | OPNet contracts + event monitor for BlockHost — on-chain subscription purchases with NFT-gated SSH access |
 | **op-bet** | https://mint.op-bet.xyz/ | On-chain betting dApp |
 
 → Full ecosystem listing with 26+ dApps: [vibecode.finance/ecosystem](https://vibecode.finance/ecosystem) · [docs/resources.md](docs/resources.md)
@@ -265,7 +267,16 @@ Detailed reference documents:
 | [docs/sdks.md](docs/sdks.md) | opnet SDK, @btc-vision packages, WalletConnect integration |
 | [docs/addresses.md](docs/addresses.md) | Mainnet contract addresses, genesis block, address formats |
 | [docs/resources.md](docs/resources.md) | Full GitHub org listing, documentation links, community |
+| [docs/troubleshooting.md](docs/troubleshooting.md) | Known gotchas and fixes (op-vm glibc mismatch, etc.) |
 
 ---
 
-*Last updated: 2026-04-11 — Mainnet launched March 19, 2026 (block 941,400). Ecosystem is early.*
+## Troubleshooting
+
+Common pitfalls when setting up OPNET tooling on Linux, with copy-paste fixes — including the `@btc-vision/op-vm` `GLIBC_2.39 not found`. 
+
+→ See [docs/troubleshooting.md](docs/troubleshooting.md)
+
+---
+
+*Last updated: 2026-04-13 — Mainnet launched March 19, 2026 (block 941,400).*
