@@ -222,6 +222,7 @@ Community-built projects on OPNET:
 | **OpGuard** *(experimental)* | https://opguard-production-5676.up.railway.app | OP-20 token security auditor — static analysis and audit tooling for OPNET smart contracts |
 | **OpFlow** *(experimental)* | https://opflow-production.up.railway.app | OPNet token analytics — on-chain data and charts for tokens deployed on Bitcoin L1 |
 | **BlockHost Engine** | [github.com/mwaddip/blockhost-engine-opnet](https://github.com/mwaddip/blockhost-engine-opnet) | OPNet contracts + event monitor for BlockHost — on-chain subscription purchases with NFT-gated SSH access |
+| **SATSX** | https://satx.io | OP-721 NFT marketplace and OP-20 token swap — list, buy, and trade Bitcoin-native assets with BTC as gas, no bridges |
 | **op-bet** | https://mint.op-bet.xyz/ | On-chain betting dApp |
 
 → Full ecosystem listing with 26+ dApps: [vibecode.finance/ecosystem](https://vibecode.finance/ecosystem) · [docs/resources.md](docs/resources.md)
@@ -279,4 +280,4 @@ Common pitfalls when setting up OPNET tooling on Linux, with copy-paste fixes �
 
 ---
 
-*Last updated: 2026-04-13 — Mainnet launched March 19, 2026 (block 941,400).*
+*Last updated: 2026-04-14 — Mainnet launched March 19, 2026 (block 941,400).*
