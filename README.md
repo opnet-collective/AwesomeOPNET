@@ -65,6 +65,7 @@ Key properties at a glance:
 | MotoSwap DEX | https://motoswap.org |
 | OPTools | https://optools.org |
 | AI Dev Assistant (Bob) | https://ai.opnet.org |
+| DeFi Bible | https://defibible.org |
 
 ---
 
