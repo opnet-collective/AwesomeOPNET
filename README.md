@@ -225,6 +225,8 @@ Community-built projects on OPNET:
 | **BlockHost Engine** | [github.com/mwaddip/blockhost-engine-opnet](https://github.com/mwaddip/blockhost-engine-opnet) | OPNet contracts + event monitor for BlockHost — on-chain subscription purchases with NFT-gated SSH access |
 | **SATSX** | https://satx.io | OP-721 NFT marketplace and OP-20 token swap — list, buy, and trade Bitcoin-native assets with BTC as gas, no bridges |
 | **op-bet** | https://mint.op-bet.xyz/ | On-chain betting dApp |
+| **DeFiSloth** | https://defisloth.com | Bitcoin Layer 1 DeFi analytics — TVL tracking, token and DEX data for OPNET |
+| **CatPound** | https://catpound.org | Auto-compounder on OPNET — automated yield compounding for multiple tokens and LP rewards |
 
 → Full ecosystem listing with 26+ dApps: [vibecode.finance/ecosystem](https://vibecode.finance/ecosystem) · [docs/resources.md](docs/resources.md)
 
