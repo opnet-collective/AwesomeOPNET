@@ -46,7 +46,7 @@ console.log('Block:', block);
 
 ### @btc-vision/transaction — Transaction Builder
 
-Utilities for building and broadcasting OPNET transactions.
+Low-level utilities for transaction signing and broadcasting.
 
 - **npm:** [npmjs.com/package/@btc-vision/transaction](https://www.npmjs.com/package/@btc-vision/transaction)
 
@@ -54,7 +54,11 @@ Utilities for building and broadcasting OPNET transactions.
 npm install @btc-vision/transaction
 ```
 
-Key utilities: `ABICoder` (encode/decode ABI data), transaction signing, calldata construction.
+Key utilities: `Wallet` (keypair + ML-DSA key container), `ABICoder` (encode/decode ABI data), `TransactionFactory` (deployments and plain BTC transfers).
+
+**Suggested use cases:** deployments (`TransactionFactory.signDeployment`), plain BTC transfers (`TransactionFactory.createBTCTransfer`), and wallet construction (`new Wallet(WIF, MLDSA_KEY, network)`).
+
+For contract calls (simulate + sendTransaction), use the [`opnet`](https://www.npmjs.com/package/opnet) package and `getContract()` instead.
 
 ---
 

@@ -317,6 +317,22 @@ constructor() {
 
 The SDK throws "Insufficient UTXOs" before signing if this value exceeds the actual UTXO balance. Always derive it from the actual available balance.
 
+### 13. For contract calls, use `opnet` — not `@btc-vision/transaction`
+
+Contract interactions should go through `getContract()` from the `opnet` package. `@btc-vision/transaction` is intended for `TransactionFactory` operations — deployments and plain BTC transfers.
+
+```typescript
+// Recommended pattern for contract calls
+import { getContract, OP_20_ABI, type IOP20Contract } from 'opnet';
+
+const contract = getContract<IOP20Contract>(address, OP_20_ABI, provider, network, wallet.address);
+const sim = await contract.transfer(recipient, amount);
+if (sim.revert) throw new Error(sim.revert);
+await sim.sendTransaction({ signer: wallet.keypair, mldsaSigner: wallet.mldsaKeypair, ... });
+```
+
+See [OPNet transaction rules](https://docs.opnet.org) for the full guidance. *Source: [ai.opnet.org](https://ai.opnet.org) (Bob, OPNet core developer AI assistant).*
+
 ---
 
 ## Testing
