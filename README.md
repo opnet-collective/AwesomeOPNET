@@ -191,8 +191,12 @@ Contracts are written in **AssemblyScript** and compiled to WASM using `@btc-vis
 - [btc-vision/btc-runtime](https://github.com/btc-vision/btc-runtime) — runtime library with base classes
 - [btc-vision/unit-test-framework](https://github.com/btc-vision/unit-test-framework) — test runner
 - [btc-vision/example-tokens](https://github.com/btc-vision/example-tokens) — reference OP-20 implementations
+- [btc-vision/indexer-demo](https://github.com/btc-vision/indexer-demo) — demo indexer showing how to read OPNET contract events and state
 - [docs.opnet.org](https://docs.opnet.org) — official developer documentation
 - [bc1plainview/buidl-opnet-plugin](https://github.com/bc1plainview/buidl-opnet-plugin) — Claude Code plugin (`/buidl "idea"`) that orchestrates multi-agent spec, contract, frontend, security audit, testnet deploy, and E2E testing in one command
+
+**Community resources:**
+- [memoriesadrift/opnet-starter-template](https://github.com/memoriesadrift/opnet-starter-template) — starter template with contracts, unit tests, and integration tests
 
 → Full contract development guide: [docs/contracts.md](docs/contracts.md)
 
@@ -283,4 +287,4 @@ Common pitfalls when setting up OPNET tooling on Linux, with copy-paste fixes �
 
 ---
 
-*Last updated: 2026-04-14 — Mainnet launched March 19, 2026 (block 941,400).*
+*Last updated: 2026-04-22 — Mainnet launched March 19, 2026 (block 941,400).*
