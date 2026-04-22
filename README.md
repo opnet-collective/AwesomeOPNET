@@ -222,7 +222,7 @@ Community-built projects on OPNET:
 | **Tenero** | https://tenero.io | Real-time Bitcoin DeFi analytics — token, DEX, and wallet tracking with live BTC market data across Bitcoin ecosystems |
 | **OpGuard** *(experimental)* | https://opguard-production-5676.up.railway.app | OP-20 token security auditor — static analysis and audit tooling for OPNET smart contracts |
 | **OpFlow** *(experimental)* | https://opflow-production.up.railway.app | OPNet token analytics — on-chain data and charts for tokens deployed on Bitcoin L1 |
-| **BlockHost Engine** | [github.com/mwaddip/blockhost-engine-opnet](https://github.com/mwaddip/blockhost-engine-opnet) | OPNet contracts + event monitor for BlockHost — on-chain subscription purchases with NFT-gated SSH access |
+| **BlockHost** | [blockhost.io](https://blockhost.io) | Decentralized VM hosting with crypto-native payments and wallet-based auth — [OPNET engine](https://github.com/mwaddip/blockhost-engine-opnet) handles on-chain subscriptions and NFT-gated access |
 | **SATSX** | https://satx.io | OP-721 NFT marketplace and OP-20 token swap — list, buy, and trade Bitcoin-native assets with BTC as gas, no bridges |
 | **op-bet** | https://mint.op-bet.xyz/ | On-chain betting dApp |
 | **DeFiSloth** | https://defisloth.com | Bitcoin Layer 1 DeFi analytics — TVL tracking, token and DEX data for OPNET |
